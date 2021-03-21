@@ -22,12 +22,20 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="dvW-ZB-0JS">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HI WELCOME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yqd-Th-24n">
+                                <rect key="frame" x="87" y="424" width="240" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="dvW-ZB-0JS" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Eq8-qs-azj"/>
                             <constraint firstAttribute="trailing" secondItem="dvW-ZB-0JS" secondAttribute="trailing" id="PNx-Wg-ot4"/>
                             <constraint firstAttribute="bottom" secondItem="dvW-ZB-0JS" secondAttribute="bottom" id="ZGb-l3-zLm"/>
+                            <constraint firstItem="Yqd-Th-24n" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="sI9-Or-WM6"/>
+                            <constraint firstItem="Yqd-Th-24n" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="wK5-y3-bFv"/>
                             <constraint firstItem="dvW-ZB-0JS" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="zvz-9i-v8j"/>
                         </constraints>
                     </view>
